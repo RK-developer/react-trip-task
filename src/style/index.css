@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+}
+#root,.App,.left-col {
+  height: 100%;
+}
+.trip-wrapper {
+  height: calc(100% - 71px);
+}
+.site-card-wrapper {
+  height: calc(100% - 24px);
+  overflow: hidden;
+  overflow-y: auto;
+}
+.mr10 {
+  margin-right: 10px !important;
+}
+.header {
+  background-color: #205689;
+}
+.header > h4 {
+  margin: 0px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.ant-card-bordered {
+  box-shadow: 0px 0px 6px 1px #e1e1e2;
+}
+.left-col,
+.right-col,
+.header {
+  padding: 20px;
+}
+.left-col {
+  background-color: #fafafa;
+}
+.right-col {
+  background-color: #f2f6f8;
+}
+.trip-date {
+  text-align: left;
+}
+.site-calendar-demo-card {
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+.card-col {
+  margin-bottom: 15px
+}
+.card-col .ant-card {
+  height: 100%;
+  padding-bottom: 61px;
+}
+.card-col .ant-card-actions {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.card-col.active .ant-card{
+  border-color: #a8d0f4;
+  box-shadow: 0px 0px 6px 1px #bad0e4;
+}
